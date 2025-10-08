@@ -1,0 +1,6 @@
+This is a sample text file.
+You can use this file to test the file reading examples in CODE-EXAMPLES.md.
+
+Line 3: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Line 4: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Line 5: Ut enim ad minim veniam, quis nostrud exercitation ullamco.
