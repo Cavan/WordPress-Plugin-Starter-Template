@@ -1,0 +1,18 @@
+/**
+ * Admin-specific styles
+ *
+ * @package    WP_Plugin_Starter
+ * @subpackage WP_Plugin_Starter/admin/css
+ */
+
+.wp-plugin-starter-admin-content {
+	margin-top: 20px;
+	padding: 20px;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.wp-plugin-starter-admin-content h2 {
+	margin-top: 0;
+}

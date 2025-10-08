@@ -1,0 +1,31 @@
+[
+  {
+    "title": "Privacy Policy",
+    "content": "Your privacy is important to us. This privacy policy explains how we collect and use your data.",
+    "status": "publish",
+    "parent_id": 0,
+    "meta": {
+      "template": "page-templates/full-width.php",
+      "custom_field": "privacy"
+    }
+  },
+  {
+    "title": "Terms of Service",
+    "content": "Please read these terms of service carefully before using our website.",
+    "status": "publish",
+    "parent_id": 0,
+    "meta": {
+      "template": "page-templates/full-width.php",
+      "custom_field": "terms"
+    }
+  },
+  {
+    "title": "FAQ",
+    "content": "Frequently asked questions about our services.",
+    "status": "publish",
+    "parent_id": 0,
+    "meta": {
+      "custom_field": "faq"
+    }
+  }
+]
