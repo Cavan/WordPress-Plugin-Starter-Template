@@ -209,20 +209,34 @@ You can add React components in the `src/components/` directory and use them in 
 
 ### GitHub Pages
 
-To deploy to GitHub Pages:
+This repository is configured to automatically deploy to GitHub Pages using GitHub Actions.
 
-1. Configure `docusaurus.config.js`:
-   ```javascript
-   url: 'https://yourusername.github.io',
-   baseUrl: '/your-repo-name/',
-   organizationName: 'yourusername',
-   projectName: 'your-repo-name',
-   ```
+**Live Documentation:** [https://cavan.github.io/WordPress-Plugin-Starter-Template/](https://cavan.github.io/WordPress-Plugin-Starter-Template/)
 
-2. Deploy:
-   ```bash
-   npm run deploy
-   ```
+#### Automatic Deployment
+
+The documentation automatically deploys when:
+- Changes are pushed to the `main` branch in the `docs/` directory
+- The workflow is manually triggered
+
+The GitHub Actions workflow (`.github/workflows/deploy-docs.yml`) handles:
+1. Installing dependencies
+2. Building the static site
+3. Deploying to GitHub Pages
+
+#### Setup Instructions
+
+For first-time setup or troubleshooting, see [GITHUB-PAGES-SETUP.md](../GITHUB-PAGES-SETUP.md) in the root directory.
+
+#### Manual Deployment
+
+You can also deploy manually using the Docusaurus deploy command:
+
+```bash
+npm run deploy
+```
+
+Note: Manual deployment requires GitHub authentication and push access to the repository.
 
 ### Other Hosting
 

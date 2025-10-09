@@ -340,20 +340,39 @@ docker-compose up
 
 ### GitHub Pages
 
-Docusaurus can deploy directly to GitHub Pages:
+**Live Documentation:** [https://cavan.github.io/WordPress-Plugin-Starter-Template/](https://cavan.github.io/WordPress-Plugin-Starter-Template/)
 
-1. **Configure** `docusaurus.config.js`:
+#### Automatic Deployment (Recommended)
+
+This repository uses GitHub Actions to automatically deploy documentation to GitHub Pages.
+
+**Automated deployment triggers:**
+- When changes are pushed to the `main` branch affecting the `docs/` directory
+- Manual workflow dispatch from the Actions tab
+
+**Setup requirements:**
+1. Enable GitHub Pages in repository settings
+2. Set source to "GitHub Actions"
+3. See [GITHUB-PAGES-SETUP.md](../GITHUB-PAGES-SETUP.md) for detailed instructions
+
+#### Manual Deployment
+
+You can also deploy manually using Docusaurus:
+
+1. **Configure** `docusaurus.config.js` (already configured):
    ```javascript
-   url: 'https://yourusername.github.io',
-   baseUrl: '/repository-name/',
-   organizationName: 'yourusername',
-   projectName: 'repository-name',
+   url: 'https://cavan.github.io',
+   baseUrl: '/WordPress-Plugin-Starter-Template/',
+   organizationName: 'Cavan',
+   projectName: 'WordPress-Plugin-Starter-Template',
    ```
 
 2. **Deploy:**
    ```bash
    npm run deploy
    ```
+   
+   Note: Requires GitHub authentication and repository write access.
 
 ### Other Hosting
 

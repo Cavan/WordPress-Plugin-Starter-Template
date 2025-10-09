@@ -58,7 +58,9 @@ wp-plugin-starter/
 
 ### 📚 Full Documentation Site
 
-For comprehensive documentation, visit the **[Documentation Site](docs/)** built with Docusaurus.
+**Live Documentation:** [https://cavan.github.io/WordPress-Plugin-Starter-Template/](https://cavan.github.io/WordPress-Plugin-Starter-Template/)
+
+For comprehensive documentation, visit the **[Documentation Site](https://cavan.github.io/WordPress-Plugin-Starter-Template/)** built with Docusaurus.
 
 **Run the documentation locally:**
 
