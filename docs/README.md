@@ -4,7 +4,7 @@ This directory contains the documentation website built with [Docusaurus](https:
 
 ## Prerequisites
 
-- Node.js 18 or higher
+- Node.js 20 or higher
 - npm or yarn
 - (Optional) Docker and Docker Compose
 
@@ -100,7 +100,7 @@ docs/
 ### Dockerfile
 
 The Dockerfile is configured to:
-- Use Node.js 18 Alpine image
+- Use Node.js 20 Alpine image
 - Install dependencies
 - Expose port 3000
 - Run the development server

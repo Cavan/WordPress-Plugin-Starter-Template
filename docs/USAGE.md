@@ -30,7 +30,7 @@ See [Running Locally](#running-locally) below.
 
 ### Prerequisites
 
-- Node.js 18 or higher
+- Node.js 20 or higher
 - npm (comes with Node.js)
 
 ### Steps
@@ -321,7 +321,7 @@ Check for:
 - Missing dependencies: Run `npm install`
 - Broken links: Check markdown files
 - Invalid frontmatter: Verify YAML syntax
-- Node.js version: Ensure Node.js 18+
+- Node.js version: Ensure Node.js 20+
 
 ### Docker Issues
 
