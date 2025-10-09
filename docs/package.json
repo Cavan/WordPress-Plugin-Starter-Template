@@ -1,0 +1,42 @@
+{
+  "name": "wp-plugin-starter-docs",
+  "version": "1.0.0",
+  "description": "Documentation for WordPress Plugin Starter Template",
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids"
+  },
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "documentation",
+    "docusaurus"
+  ],
+  "author": "WordPress Plugin Starter Template Contributors",
+  "license": "GPL-2.0-or-later",
+  "dependencies": {
+    "@docusaurus/core": "^3.9.1",
+    "@docusaurus/preset-classic": "^3.9.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

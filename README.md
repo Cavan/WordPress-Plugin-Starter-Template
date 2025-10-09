@@ -12,6 +12,8 @@ A comprehensive, bare-bones starter template for WordPress plugin development. T
 - ✅ Admin menu and settings page
 - ✅ Comprehensive code examples for common operations
 - ✅ Follows WordPress coding standards
+- ✅ **Complete documentation site built with Docusaurus**
+- ✅ **Docker support for easy documentation development**
 
 ## Quick Start
 
@@ -46,12 +48,40 @@ wp-plugin-starter/
 ├── assets/                # Additional assets
 │   └── images/           # Image files
 ├── languages/             # Translation files (create as needed)
+├── docs/                  # Documentation site (Docusaurus)
 ├── CODE-EXAMPLES.md       # Code examples documentation
 ├── README.md              # This file
 └── wp-plugin-starter.php  # Main plugin file
 ```
 
 ## Documentation
+
+### 📚 Full Documentation Site
+
+For comprehensive documentation, visit the **[Documentation Site](docs/)** built with Docusaurus.
+
+**Run the documentation locally:**
+
+```bash
+cd docs
+npm install
+npm start
+```
+
+**Or using Docker:**
+
+```bash
+cd docs
+docker-compose up
+```
+
+Visit `http://localhost:3000` to view the full documentation with:
+
+- **Getting Started Guide** - Quick setup and installation
+- **Code Examples** - Practical WordPress code patterns
+- **API Reference** - Detailed function and class documentation  
+- **Best Practices** - Security, performance, and coding standards
+- **Contributing Guide** - How to contribute to the project
 
 ### Code Examples
 
