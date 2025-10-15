@@ -43,6 +43,7 @@ const sidebars = {
       type: 'category',
       label: 'Common Operations',
       items: [
+        'common-code-snippets',
         'custom-post-types',
         'shortcodes',
         'ajax-handlers',
