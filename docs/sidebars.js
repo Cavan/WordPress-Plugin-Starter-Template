@@ -26,6 +26,7 @@ const sidebars = {
         'quick-start',
         'folder-structure',
         'customization',
+        'enable-local-search',
       ],
     },
     {
